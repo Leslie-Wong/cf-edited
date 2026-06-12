@@ -2760,8 +2760,8 @@ async function 处理订阅请求(请求507, 用户506, 网址505 = null) {
   }
 
   ////LES EDIT Add best_cf_ip START
-  if(url.searchParams.has('best_cf_ip')){
-      const BEST_CF_IP = url.searchParams.get('best_cf_ip').split(",");
+  if(网址505.searchParams.has('best_cf_ip')){
+      const BEST_CF_IP = 网址505.searchParams.get('best_cf_ip').split(",");
       for (let CFIP of BEST_CF_IP ) {
          const myList = await 获取优选订阅生成器数据(CFIP, user, workerDomain);
          if (myList.length > 0) {
