@@ -41,9 +41,9 @@ let 键值配置版本 = '';
 const 配置默认值 = {
   wk: '',
   ev: 'yes',
-  et: 'no',
-  ex: 'no',
-  ech: 'no',
+  et: 'yes',
+  ex: 'yes',
+  ech: 'yes',
   tp: '',
   customDNS: 'https://223.5.5.5/dns-query',
   customECHDomain: 'cloudflare-ech.com',
